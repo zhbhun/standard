@@ -1,12 +1,14 @@
 {
-  "name": "eslint-config-ease-base",
+  "name": "eslint-config-ease-react-native",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "keywords": [
     "eslint",
     "eslint-config",
-    "styleguide"
+    "styleguide",
+    "react",
+    "react-native"
   ],
   "author": "zhbhun",
   "license": "MIT",
@@ -14,13 +16,16 @@
     "rules",
     "index.js"
   ],
-  "scripts": {
-    "test": "eslint ./example"
-  },
   "dependencies": {
+    "eslint-config-ease-react": "^0.2.0",
+    "eslint-plugin-react-native": "~2.3.2"
+  },
+  "devDependencies": {
     "babel-eslint": "7.2.1",
     "eslint": "^3.1.19",
     "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.8.1",
     "eslint-restricted-globals": "~0.1.1"
   }
 }

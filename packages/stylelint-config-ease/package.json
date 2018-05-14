@@ -1,11 +1,11 @@
 {
-  "name": "eslint-config-ease-base",
+  "name": "stylelint-config-ease",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "keywords": [
-    "eslint",
-    "eslint-config",
+    "stylelint",
+    "stylelint-config",
     "styleguide"
   ],
   "author": "zhbhun",
@@ -15,12 +15,9 @@
     "index.js"
   ],
   "scripts": {
-    "test": "eslint ./example"
+    "test": "stylelint \"example/*.css\""
   },
   "dependencies": {
-    "babel-eslint": "7.2.1",
-    "eslint": "^3.1.19",
-    "eslint-plugin-import": "^2.11.0",
-    "eslint-restricted-globals": "~0.1.1"
+    "stylelint": "^8.4.0"
   }
 }
