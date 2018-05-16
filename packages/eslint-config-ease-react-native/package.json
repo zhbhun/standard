@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ease-react-native",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "keywords": [
@@ -17,7 +17,7 @@
     "index.js"
   ],
   "dependencies": {
-    "eslint-config-ease-react": "^0.2.0",
+    "eslint-config-ease-react": "^1.0.0",
     "eslint-plugin-react-native": "^3.2.1"
   },
   "devDependencies": {
