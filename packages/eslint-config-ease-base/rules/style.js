@@ -107,7 +107,7 @@ module.exports = {
 
     // Enforce the location of arrow function bodies with implicit returns
     // https://eslint.org/docs/rules/implicit-arrow-linebreak
-    'implicit-arrow-linebreak': ['error', 'beside'],
+    'implicit-arrow-linebreak': 'off',
 
     // this option sets a specific tab width for your code
     // https://eslint.org/docs/rules/indent
@@ -351,12 +351,7 @@ module.exports = {
     }],
 
     // disallow dangling underscores in identifiers
-    'no-underscore-dangle': ['error', {
-      allow: [],
-      allowAfterThis: true,
-      allowAfterSuper: true,
-      enforceInMethodNames: false,
-    }],
+    'no-underscore-dangle': 'off',
 
     // disallow the use of Boolean literals in conditional expressions
     // also, prefer `a || b` over `a ? a : b`
@@ -402,7 +397,7 @@ module.exports = {
 
     // Requires operator at the beginning of the line in multiline statements
     // https://eslint.org/docs/rules/operator-linebreak
-    'operator-linebreak': ['error', 'before', { overrides: { '=': 'none' } }],
+    'operator-linebreak': ['error', 'before', { overrides: { '=': 'after' } }],
 
     // disallow padding within blocks
     'padded-blocks': ['error', { blocks: 'never', classes: 'never', switches: 'never' }],

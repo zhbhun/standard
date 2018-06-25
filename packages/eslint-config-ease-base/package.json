@@ -18,7 +18,7 @@
     "test": "eslint ./example"
   },
   "dependencies": {
-    "babel-eslint": "^8.2.3",
+    "babel-eslint": "8.0.2",
     "eslint": "^4.19.1",
     "eslint-plugin-import": "^2.11.0",
     "eslint-restricted-globals": "~0.1.1"

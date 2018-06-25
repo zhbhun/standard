@@ -14,10 +14,7 @@ module.exports = {
   rules: {
     // enforces no braces where they can be omitted
     // https://eslint.org/docs/rules/arrow-body-style
-    // TODO: enable requireReturnForObjectLiteral?
-    'arrow-body-style': ['error', 'as-needed', {
-      requireReturnForObjectLiteral: false,
-    }],
+    'arrow-body-style': 'off',
 
     // require parens in arrow function arguments
     // https://eslint.org/docs/rules/arrow-parens
@@ -108,18 +105,7 @@ module.exports = {
 
     // Prefer destructuring from arrays and objects
     // https://eslint.org/docs/rules/prefer-destructuring
-    'prefer-destructuring': ['error', {
-      VariableDeclarator: {
-        array: false,
-        object: true,
-      },
-      AssignmentExpression: {
-        array: true,
-        object: true,
-      },
-    }, {
-      enforceForRenamedProperties: false,
-    }],
+    'prefer-destructuring': 'off',
 
     // disallow parseInt() in favor of binary, octal, and hexadecimal literals
     // https://eslint.org/docs/rules/prefer-numeric-literals
