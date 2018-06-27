@@ -139,7 +139,7 @@ module.exports = {
 
     // Forbid import of modules using absolute paths
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-absolute-path.md
-    'import/no-absolute-path': 'error',
+    'import/no-absolute-path': 'off',
 
     // Forbid require() calls with expressions
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-dynamic-require.md

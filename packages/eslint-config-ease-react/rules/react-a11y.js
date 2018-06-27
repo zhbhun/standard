@@ -114,16 +114,7 @@ module.exports = {
 
     // Enforce that DOM elements without semantic behavior not have interaction handlers
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-static-element-interactions.md
-    'jsx-a11y/no-static-element-interactions': ['off', {
-      handlers: [
-        'onClick',
-        'onMouseDown',
-        'onMouseUp',
-        'onKeyPress',
-        'onKeyDown',
-        'onKeyUp',
-      ]
-    }],
+    'jsx-a11y/no-static-element-interactions': 'off',
 
     // A non-interactive element does not support event handlers (mouse and key handlers)
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-noninteractive-element-interactions.md

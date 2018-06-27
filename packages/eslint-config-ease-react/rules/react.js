@@ -16,42 +16,21 @@ module.exports = {
     // https://eslint.org/docs/rules/jsx-quotes
     'jsx-quotes': ['error', 'prefer-double'],
 
-    'class-methods-use-this': ['off', {
-      exceptMethods: [
-        'render',
-        'getInitialState',
-        'getDefaultProps',
-        'getChildContext',
-        'componentWillMount',
-        'componentDidMount',
-        'componentWillReceiveProps',
-        'shouldComponentUpdate',
-        'componentWillUpdate',
-        'componentDidUpdate',
-        'componentWillUnmount',
-        'componentDidCatch',
-      ],
-    }],
-
     // Prevent missing displayName in a React component definition
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md
-    'react/display-name': ['off', { ignoreTranspilerName: false }],
+    'react/display-name': 'off',
 
     // Forbid certain propTypes (any, array, object)
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md
-    'react/forbid-prop-types': ['off', {
-      forbid: ['any', 'array', 'object'],
-      checkContextTypes: true,
-      checkChildContextTypes: true,
-    }],
+    'react/forbid-prop-types': 'off',
 
     // Forbid certain props on DOM Nodes
     // https://github.com/yannickcr/eslint-plugin-react/blob/843d71a432baf0f01f598d7cf1eea75ad6896e4b/docs/rules/forbid-dom-props.md
-    'react/forbid-dom-props': ['off', { forbid: [] }],
+    'react/forbid-dom-props': 'off',
 
     // Enforce boolean attributes notation in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md
-    'react/jsx-boolean-value': ['error', 'never', { always: [] }],
+    'react/jsx-boolean-value': 'off',
 
     // Validate closing bracket location in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md
@@ -67,10 +46,7 @@ module.exports = {
 
     // Enforce event handler naming conventions in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md
-    'react/jsx-handler-names': ['off', {
-      eventHandlerPrefix: 'handle',
-      eventHandlerPropPrefix: 'on',
-    }],
+    'react/jsx-handler-names': 'off',
 
     // Validate props indentation in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md
@@ -90,6 +66,7 @@ module.exports = {
       ignoreRefs: true,
       allowArrowFunctions: true,
       allowBind: false,
+      allowFunctions: false,
     }],
 
     // Prevent duplicate props in JSX
@@ -98,7 +75,7 @@ module.exports = {
 
     // Prevent usage of unwrapped JSX strings
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-literals.md
-    'react/jsx-no-literals': ['off', { noStrings: true }],
+    'react/jsx-no-literals': 'off',
 
     // Disallow undeclared variables in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md
@@ -113,12 +90,7 @@ module.exports = {
 
     // Enforce propTypes declarations alphabetical sorting
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-prop-types.md
-    'react/sort-prop-types': ['off', {
-      ignoreCase: true,
-      callbacksLast: false,
-      requiredFirst: false,
-      sortShapeProp: true,
-    }],
+    'react/sort-prop-types': 'off',
 
     // Deprecated in favor of react/jsx-sort-props
     'react/jsx-sort-prop-types': 'off',
@@ -136,13 +108,11 @@ module.exports = {
 
     // Enforce defaultProps declarations alphabetical sorting
     // https://github.com/yannickcr/eslint-plugin-react/blob/843d71a432baf0f01f598d7cf1eea75ad6896e4b/docs/rules/jsx-sort-default-props.md
-    'react/jsx-sort-default-props': ['off', {
-      ignoreCase: true,
-    }],
+    'react/jsx-sort-default-props': 'off',
 
     // Prevent React to be incorrectly marked as unused
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md
-    'react/jsx-uses-react': ['error'],
+    'react/jsx-uses-react': 'error',
 
     // Prevent variables used in JSX to be incorrectly marked as unused
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-vars.md
@@ -150,11 +120,11 @@ module.exports = {
 
     // Prevent usage of dangerous JSX properties
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-danger.md
-    'react/no-danger': 'warn',
+    'react/no-danger': 'off',
 
     // Prevent usage of deprecated methods
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-deprecated.md
-    'react/no-deprecated': ['error'],
+    'react/no-deprecated': 'warn',
 
     // Prevent usage of setState in componentDidMount
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-mount-set-state.md
@@ -163,7 +133,7 @@ module.exports = {
 
     // Prevent usage of setState in componentDidUpdate
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-update-set-state.md
-    'react/no-did-update-set-state': 'error',
+    'react/no-did-update-set-state': 'off',
 
     // Prevent usage of setState in componentWillUpdate
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-will-update-set-state.md
@@ -179,7 +149,7 @@ module.exports = {
 
     // Prevent multiple component definition per file
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-multi-comp.md
-    'react/no-multi-comp': ['off', { ignoreStateless: true }],
+    'react/no-multi-comp': 'off',
 
     // Prevent usage of setState
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-set-state.md
@@ -191,15 +161,15 @@ module.exports = {
 
     // Prevent usage of unknown DOM property
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unknown-property.md
-    'react/no-unknown-property': 'error',
+    'react/no-unknown-property': 'off',
 
     // Require ES6 class declarations over React.createClass
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-es6-class.md
-    'react/prefer-es6-class': ['error', 'always'],
+    'react/prefer-es6-class': 'off',
 
     // Require stateless functions when not using lifecycle methods, setState or ref
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md
-    'react/prefer-stateless-function': ['off', { ignorePureComponents: true }],
+    'react/prefer-stateless-function': ['error', { ignorePureComponents: true }],
 
     // Prevent missing props validation in a React component definition
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md
