@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ease-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "keywords": [
@@ -19,7 +19,7 @@
     "test": "eslint ./example"
   },
   "dependencies": {
-    "eslint-config-ease-base": "^1.0.1",
+    "eslint-config-ease-base": "^1.0.2",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.8.2"
   },
