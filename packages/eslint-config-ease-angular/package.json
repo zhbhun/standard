@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ease-angular",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "keywords": [
@@ -16,7 +16,7 @@
     "index.js"
   ],
   "dependencies": {
-    "eslint-config-ease-base": "^1.0.4",
+    "eslint-config-ease-base": "^1.0.5",
     "eslint-plugin-angular": "^3.3.0"
   },
   "devDependencies": {
