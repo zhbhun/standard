@@ -169,7 +169,7 @@ module.exports = {
 
     // Require stateless functions when not using lifecycle methods, setState or ref
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md
-    'react/prefer-stateless-function': ['error', { ignorePureComponents: true }],
+    'react/prefer-stateless-function': 'off',
 
     // Prevent missing props validation in a React component definition
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md
@@ -392,7 +392,7 @@ module.exports = {
 
     // Prevent this from being used in stateless functional components
     // https://github.com/yannickcr/eslint-plugin-react/blob/843d71a432baf0f01f598d7cf1eea75ad6896e4b/docs/rules/no-this-in-sfc.md
-    'react/no-this-in-sfc': 'error',
+    'react/no-this-in-sfc': 'off',
 
     // Validate JSX maximum depth
     // https://github.com/yannickcr/eslint-plugin-react/blob/abe8381c0d6748047224c430ce47f02e40160ed0/docs/rules/jsx-max-depth.md
