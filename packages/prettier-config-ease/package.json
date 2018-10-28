@@ -1,0 +1,42 @@
+{
+  "name": "prettier-config-ease",
+  "version": "1.0.0",
+  "description": "Pretitter config, following our styleguide",
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/zhbhun/standard",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhbhun/standard"
+  },
+  "bugs": {
+    "url": "https://github.com/zhbhun/standard/issues"
+  },
+  "author": "zhbhun",
+  "contributors": [
+    {
+      "name": "zhbhun",
+      "url": "https://github.com/zhbhun"
+    }
+  ],
+  "keywords": [
+    "prettier",
+    "prettier-config",
+    "config"
+  ],
+  "engines": {
+    "node": ">= 6"
+  },
+  "files": [
+    "index.js",
+    "javascript.js",
+    "markdown.js"
+  ],
+  "scripts": {
+    "test:js": "prettier ./examples/**/*.js",
+    "test:md": "prettier ./examples/**/*.md"
+  },
+  "devDependencies": {
+    "prettier": "^1.14.3"
+  }
+}

@@ -1,22 +1,15 @@
 module.exports = {
+  parser: require.resolve('babel-eslint'),
   extends: [
+    'eslint-config-airbnb-base',
+    'eslint-config-airbnb-base/rules/strict',
+    'eslint-config-prettier',
     './rules/best-practices',
-    './rules/errors',
     './rules/node',
     './rules/style',
     './rules/variables',
     './rules/es6',
     './rules/imports',
+    './rules/prettier',
   ].map(require.resolve),
-  parser: 'babel-eslint',
-  parserOptions: {
-    ecmaVersion: 2017,
-    sourceType: 'module',
-    ecmaFeatures: {
-      experimentalObjectRestSpread: true,
-    },
-  },
-  rules: {
-    strict: 'error',
-  },
 };

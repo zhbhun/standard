@@ -1,7 +1,5 @@
 module.exports = {
-  plugins: [
-    'react-native',
-  ],
+  plugins: ['react-native'],
 
   // View link below for react rules documentation
   // https://github.com/intellicode/eslint-plugin-react-native#list-of-supported-rules
@@ -15,6 +13,6 @@ module.exports = {
     // https://github.com/Intellicode/eslint-plugin-react-native/blob/master/docs/rules/no-inline-styles.md
     'react-native/no-inline-styles': 'warn',
 
-    'react-native/no-color-literals': 'off'
-  }
+    'react-native/no-color-literals': 'off',
+  },
 };

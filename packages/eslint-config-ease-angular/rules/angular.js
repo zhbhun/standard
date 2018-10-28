@@ -1,7 +1,5 @@
 module.exports = {
-  plugins: [
-    'angular'
-  ],
+  plugins: ['angular'],
   rules: {
     'angular/component-name': 'error',
     'angular/constant-name': 'error',
@@ -26,6 +24,6 @@ module.exports = {
     'angular/service-name': 'error',
     'angular/timeout-service': 'error',
     'angular/value-name': 'error',
-    'angular/window-service': 'error'
-  }
+    'angular/window-service': 'error',
+  },
 };

@@ -1,28 +1,52 @@
 {
   "name": "eslint-config-ease-angular",
-  "version": "1.0.5",
-  "description": "",
+  "version": "1.0.0",
+  "description": "ESLint Angular config, following our styleguide",
   "main": "index.js",
+  "homepage": "https://github.com/zhbhun/standard",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhbhun/standard"
+  },
+  "bugs": {
+    "url": "https://github.com/zhbhun/standard/issues"
+  },
+  "author": "zhbhun",
+  "contributors": [
+    {
+      "name": "zhbhun",
+      "url": "https://github.com/zhbhun"
+    }
+  ],
   "keywords": [
     "eslint",
     "eslint-config",
-    "styleguide",
-    "angular"
+    "config",
+    "javascript",
+    "angular",
+    "styleguide"
   ],
-  "author": "zhbhun",
-  "license": "MIT",
-  "files": [
-    "rules",
-    "index.js"
-  ],
+  "scripts": {
+    "format": "eslint --fix ./index.js ./rules",
+    "lint": "eslint ./index.js ./rules",
+    "test:format": "eslint --fix ./example",
+    "test:lint": "eslint ./example"
+  },
+  "engines": {
+    "node": ">= 6"
+  },
   "dependencies": {
-    "eslint-config-ease-base": "^1.0.5",
+    "eslint-config-ease-base": "^1.0.0",
     "eslint-plugin-angular": "^3.3.0"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.3",
-    "eslint": "^4.19.1",
-    "eslint-plugin-import": "^2.11.0",
-    "eslint-restricted-globals": "~0.1.1"
+    "prettier-config-ease": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "prettier": "^1.14.3"
   }
 }
