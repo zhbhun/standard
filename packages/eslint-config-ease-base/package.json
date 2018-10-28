@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ease-base",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "Basic JS ESLint config, following our styleguide",
   "main": "index.js",
   "license": "MIT",
@@ -49,6 +49,6 @@
     "prettier": "^1.14.3"
   },
   "devDependencies": {
-    "prettier-config-ease": "^1.0.0"
+    "prettier-config-ease": "^2.0.0"
   }
 }

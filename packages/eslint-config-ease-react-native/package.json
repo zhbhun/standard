@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ease-react-native",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "ESLint React Native config, following our styleguide",
   "main": "index.js",
   "license": "MIT",
@@ -35,21 +35,21 @@
     "test:lint": "eslint ./example"
   },
   "dependencies": {
-    "eslint-config-ease-react": "^1.0.5",
+    "eslint-config-ease-react": "^2.0.0",
     "eslint-plugin-react-native": "^3.2.1"
   },
   "devDependencies": {
-    "eslint-config-ease-base": "^1.0.0",
-    "prettier-config-ease": "^1.0.0",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.7.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-ease-base": "^2.0.0",
     "eslint-config-prettier": "^3.1.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.11.0",
-    "prettier": "^1.14.3"
+    "prettier": "^1.14.3",
+    "prettier-config-ease": "^2.0.0"
   }
 }
