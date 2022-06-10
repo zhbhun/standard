@@ -1,3 +1,10 @@
+## @zhbhun/commitlint-config [1.0.1](https://github.com/zhbhun/standard/compare/@zhbhun/commitlint-config@1.0.0...@zhbhun/commitlint-config@1.0.1) (2022-06-10)
+
+
+### Bug Fixes
+
+* disable commitlint subject-case ([d94f0fb](https://github.com/zhbhun/standard/commit/d94f0fb1aff4eddaaf8deee2721244727f357ee2))
+
 # @zhbhun/commitlint-config 1.0.0 (2022-06-10)
 
 
