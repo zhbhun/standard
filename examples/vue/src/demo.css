@@ -1,0 +1,15 @@
+.insert {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  color: red;
+}
+
+.alter::after {
+  color: red1;
+  content: 'example';
+}
+
+.delete {
+  display: block;
+}

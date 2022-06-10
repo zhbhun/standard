@@ -1,0 +1,29 @@
+{
+  "name": "@zhbhun/commitlint-config",
+  "version": "1.0.0",
+  "description": "commit msg linter",
+  "main": "index.js",
+  "scripts": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix"
+  },
+  "peerDependencies": {
+    "eslint": ">= 7.0.0",
+    "@commitlint/cli": "^17.0.2"
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "^17.0.2"
+  },
+  "devDependencies": {
+    "@zhbhun/eslint-config-base": "^1.0.0",
+    "@zhbhun/prettier-config": "^1.0.0",
+    "eslint": "^8.0.0",
+    "lint-staged": "^13.0.1",
+    "prettier": "^2.0.0",
+    "stylelint": "^14.0.0"
+  },
+  "author": "openeagle",
+  "license": "MIT"
+}

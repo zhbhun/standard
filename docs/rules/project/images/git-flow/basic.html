@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body>
+    <div id="graph-container"></div>
+    <script src="https://cdn.jsdelivr.net/npm/@gitgraph/js"></script>
+    <script>
+      const branchOrder = {
+        master: 1,
+        beta: 2,
+        feature: 3,
+        hotfix: 4,
+
+      }
+      const compareBranchesOrder = (a, b) => {
+        return branchOrder[a.split('/')[0]] - branchOrder[b.split('/')[0]]
+      }
+
+      // Get the graph container HTML element.
+      const graphContainer = document.getElementById('graph-container')
+
+      // Instantiate the graph.
+      const gitgraph = GitgraphJS.createGitgraph(graphContainer, {
+        compareBranchesOrder,
+      })
+
+      // Simulate git commands with Gitgraph API.
+      const master = gitgraph.branch('master')
+      master.commit('初始化')
+      const beta = gitgraph.branch('beta')
+      const featureA = gitgraph.branch('feature/a')
+      const featureB = gitgraph.branch('feature/b')
+      const hotfixC = gitgraph.branch('hotfix/c')
+
+      featureA.commit('feat: a1')
+      beta.merge(featureA).tag('1.0.0-beta.1')
+
+      featureA.commit('feat: a2')
+      beta.merge(featureA).tag('1.0.0-beta.2')
+
+      featureA.commit('feat: a3')
+      beta.merge(featureA).tag('1.0.0-beta.3')
+
+      master.merge(featureA).tag('1.0.0')
+
+      featureB.commit('feat: b1')
+      beta.merge(featureB).tag('1.1.0-beta.1')
+
+      hotfixC.commit('fix: c1')
+      beta.merge(hotfixC).tag('1.1.0-beta.2')
+
+      featureB.commit('feat: b2')
+      beta.merge(featureB).tag('1.1.0-beta.3')
+
+      master.merge(featureB).tag('1.1.0')
+
+      hotfixC.commit('fix: c2')
+      beta.merge(hotfixC).tag('1.1.1-beta.1')
+      master.merge(hotfixC).tag('1.1.1')
+
+      // develop.merge(hotfixC).tag('V1.0.1-20220102')
+      // master.merge(develop)
+
+      // develop.merge(featureA).tag('V1.1.0-20220103')
+      // master.merge(develop)
+
+      // develop.merge(featureB).tag('V1.2.0-20220104')
+      // master.merge(develop)
+    </script>
+  </body>
+</html>

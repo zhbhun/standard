@@ -1,0 +1,31 @@
+{
+  "name": "@zhbhun/eslint-config-vue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "files": [
+    "rules",
+    "index.js",
+    "typescript.js",
+    "vue2-typescript.js",
+    "vue2.js"
+  ],
+  "scripts": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix"
+  },
+  "peerDependencies": {
+    "eslint": ">= 7.0.0"
+  },
+  "dependencies": {
+    "@zhbhun/eslint-config-base": "^1.0.0",
+    "eslint-plugin-vue": "^9.1.0"
+  },
+  "devDependencies": {
+    "@zhbhun/prettier-config": "^1.0.0",
+    "eslint": "^8.0.0",
+    "lint-staged": "^13.0.1",
+    "prettier": "^2.0.0"
+  }
+}

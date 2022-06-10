@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body>
+    <div id="graph-container"></div>
+    <script src="https://cdn.jsdelivr.net/npm/@gitgraph/js"></script>
+    <script>
+      const branchOrder = {
+        master: 1,
+        cicd_prod: 2,
+        cicd_rc: 3,
+        cicd_alpha: 4,
+        feature: 5,
+        hotfix: 6,
+
+      }
+      const compareBranchesOrder = (a, b) => {
+        return branchOrder[a.split('/')[0]] - branchOrder[b.split('/')[0]]
+      }
+
+      // Get the graph container HTML element.
+      const graphContainer = document.getElementById('graph-container')
+
+      // Instantiate the graph.
+      const gitgraph = GitgraphJS.createGitgraph(graphContainer, {
+        compareBranchesOrder,
+      })
+
+      // Simulate git commands with Gitgraph API.
+      const master = gitgraph.branch('master')
+      master.commit('初始化').tag('1.0.0')
+      const cicdProd = gitgraph.branch('cicd_prod')
+      const cicdRc = gitgraph.branch('cicd_rc')
+      const cicdAlpha = gitgraph.branch('cicd_alpha')
+      const featureA = gitgraph.branch('feature/a')
+      const featureB = gitgraph.branch('feature/b')
+      const hotfixC = gitgraph.branch('hotfix/c')
+
+      featureA.commit('feat: a1').commit('feat: a2').commit('fix: a3')
+      cicdAlpha.merge(featureA)
+
+      featureB.commit('feat: b1').commit('feat: b2').commit('fix: b3')
+      cicdAlpha.merge(featureB)
+
+      hotfixC.commit('fix: xxx')
+      cicdAlpha.merge(hotfixC)
+
+      cicdRc.merge(hotfixC)
+      cicdProd.merge(hotfixC)
+      master.merge(hotfixC).tag('1.0.1')
+
+      cicdRc.merge(featureA)
+      cicdProd.merge(featureA)
+      master.merge(featureA).tag('1.1.0')
+
+      cicdRc.merge(featureB)
+      cicdProd.merge(featureB)
+      master.merge(featureB).tag('1.2.0')
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,406 @@
+<svg width="1196.21875" height="1353.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g transform="translate(10, 10)">
+    <g>
+      <path
+        d="M 0 1280 C 0 1240 0 1240 0 1200 L 0 1120 L 0 1040 L 0 960 L 0 880 L 0 800 L 0 720 L 0 640 L 0 560 L 0 480 L 0 400 L 0 320 L 0 240 L 0 160 L 0 80 C 0 40 0 40 0 0"
+        fill="none" stroke="#979797" stroke-width="10" transform="translate(14, 14)"></path>
+      <path
+        d="M 0 1280 C 0 1240 150 1240 150 1200 L 150 1120 L 150 1040 C 150 1000 100 1000 100 960 M 150 1040 C 150 1000 50 1000 50 960 L 50 880 L 50 800 L 50 720 L 50 640 L 50 560 L 50 480 L 50 400 L 50 320 C 50 280 50 280 50 240"
+        fill="none" stroke="#979797" stroke-width="10" transform="translate(14, 14)"></path>
+      <path
+        d="M 0 1280 C 0 1240 100 1240 100 1200 L 100 1120 L 100 1040 L 100 960 L 100 880 L 100 800 L 100 720 L 100 640 L 100 560 C 100 520 100 520 100 480"
+        fill="none" stroke="#f1c109" stroke-width="10" transform="translate(14, 14)"></path>
+      <path
+        d="M 0 1280 C 0 1240 200 1240 200 1200 L 200 1120 L 200 1040 L 200 960 L 200 880 L 200 800 L 200 720 C 200 680 100 680 100 640 M 200 720 C 200 680 50 680 50 640 L 50 560 L 50 480 L 50 400 L 50 320 L 50 240 L 50 160 C 50 120 50 120 50 80"
+        fill="none" stroke="#008fb5" stroke-width="10" transform="translate(14, 14)"></path>
+      <path
+        d="M 0 1280 C 0 1240 250 1240 250 1200 L 250 1120 L 250 1040 L 250 960 L 250 880 L 250 800 L 250 720 L 250 640 L 250 560 C 250 520 100 520 100 480 M 250 560 C 250 520 50 520 50 480 C 50 440 50 440 50 400"
+        fill="none" stroke="#f1c109" stroke-width="10" transform="translate(14, 14)"></path>
+      <path
+        d="M 0 1280 C 0 1240 50 1240 50 1200 L 50 1120 L 50 1040 L 50 960 L 50 880 L 50 800 L 50 720 L 50 640 L 50 560 L 50 480 L 50 400 C 50 360 0 360 0 320 M 50 400 C 50 360 50 360 50 320 L 50 240 C 50 200 0 200 0 160 M 50 240 C 50 200 50 200 50 160 L 50 80 C 50 40 0 40 0 0"
+        fill="none" stroke="#008fb5" stroke-width="10" transform="translate(14, 14)"></path>
+    </g>
+    <g>
+      <g transform="translate(0, 1280)">
+        <g>
+          <defs>
+            <circle cx="14" cy="14" r="14" id="a60620a3f1f34bb9c140e06c4b9c0b4c4c39c334" fill="#979797"></circle>
+            <clipPath id="clip-a60620a3f1f34bb9c140e06c4b9c0b4c4c39c334">
+              <use href="#a60620a3f1f34bb9c140e06c4b9c0b4c4c39c334"
+                xlink:href="#a60620a3f1f34bb9c140e06c4b9c0b4c4c39c334"></use>
+            </clipPath>
+          </defs>
+          <use href="#a60620a3f1f34bb9c140e06c4b9c0b4c4c39c334" xlink:href="#a60620a3f1f34bb9c140e06c4b9c0b4c4c39c334"
+            clip-path="url(#clip-a60620a3f1f34bb9c140e06c4b9c0b4c4c39c334)" stroke="" stroke-width="0"></use>
+        </g>
+        <g transform="translate(0, 0)">
+          <g transform="translate(485.1875, 14)"><text alignment-baseline="central" dominant-baseline="central"
+              fill="#979797" style="font: normal 14pt Arial">a60620a 初始化 - Sergio Flores
+              &lt;saxo-guy@epic.com&gt;</text></g>
+          <g transform="translate(300, 14)" data-offset="12">
+            <g>
+              <path
+                d="M 0,0 L 12,15.5 V 15.5 Q 12,15.5 22,15.5 H 165.1875 Q 175.1875,15.5 175.1875,5.5 V -5.5 Q 175.1875,-15.5 165.1875,-15.5 H 22 Q 12,-15.5 12,-15.5 V -15.5 z"
+                fill="#979797" stroke="#979797"></path><text alignment-baseline="central" dominant-baseline="central"
+                fill="white" style="font: normal 14pt Arial" x="22" y="0">V1.0.0-20220101</text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g transform="translate(150, 1200)">
+        <g>
+          <defs>
+            <circle cx="14" cy="14" r="14" id="f25d72f5e87e6e90febff42ff0e87ad84875398a" fill="#979797"></circle>
+            <clipPath id="clip-f25d72f5e87e6e90febff42ff0e87ad84875398a">
+              <use href="#f25d72f5e87e6e90febff42ff0e87ad84875398a"
+                xlink:href="#f25d72f5e87e6e90febff42ff0e87ad84875398a"></use>
+            </clipPath>
+          </defs>
+          <use href="#f25d72f5e87e6e90febff42ff0e87ad84875398a" xlink:href="#f25d72f5e87e6e90febff42ff0e87ad84875398a"
+            clip-path="url(#clip-f25d72f5e87e6e90febff42ff0e87ad84875398a)" stroke="" stroke-width="0"></use>
+        </g>
+        <g transform="translate(-150, 0)">
+          <g transform="translate(300, 14)"><text alignment-baseline="central" dominant-baseline="central"
+              fill="#979797" style="font: normal 14pt Arial">f25d72f feat: a1 - Sergio Flores
+              &lt;saxo-guy@epic.com&gt;</text></g>
+        </g>
+      </g>
+      <g transform="translate(150, 1120)">
+        <g>
+          <defs>
+            <circle cx="14" cy="14" r="14" id="37318ffca782b3bda97a04e6141a0b2127d97ad0" fill="#979797"></circle>
+            <clipPath id="clip-37318ffca782b3bda97a04e6141a0b2127d97ad0">
+              <use href="#37318ffca782b3bda97a04e6141a0b2127d97ad0"
+                xlink:href="#37318ffca782b3bda97a04e6141a0b2127d97ad0"></use>
+            </clipPath>
+          </defs>
+          <use href="#37318ffca782b3bda97a04e6141a0b2127d97ad0" xlink:href="#37318ffca782b3bda97a04e6141a0b2127d97ad0"
+            clip-path="url(#clip-37318ffca782b3bda97a04e6141a0b2127d97ad0)" stroke="" stroke-width="0"></use>
+        </g>
+        <g transform="translate(-150, 0)">
+          <g transform="translate(300, 14)"><text alignment-baseline="central" dominant-baseline="central"
+              fill="#979797" style="font: normal 14pt Arial">37318ff feat: a2 - Sergio Flores
+              &lt;saxo-guy@epic.com&gt;</text></g>
+        </g>
+      </g>
+      <g transform="translate(150, 1040)">
+        <g>
+          <defs>
+            <circle cx="14" cy="14" r="14" id="26ec1e904618c2e7d33db69af9e6e03bd7bb8de0" fill="#979797"></circle>
+            <clipPath id="clip-26ec1e904618c2e7d33db69af9e6e03bd7bb8de0">
+              <use href="#26ec1e904618c2e7d33db69af9e6e03bd7bb8de0"
+                xlink:href="#26ec1e904618c2e7d33db69af9e6e03bd7bb8de0"></use>
+            </clipPath>
+          </defs>
+          <use href="#26ec1e904618c2e7d33db69af9e6e03bd7bb8de0" xlink:href="#26ec1e904618c2e7d33db69af9e6e03bd7bb8de0"
+            clip-path="url(#clip-26ec1e904618c2e7d33db69af9e6e03bd7bb8de0)" stroke="" stroke-width="0"></use>
+        </g>
+        <g transform="translate(-150, 0)">
+          <g transform="translate(403.65625, 14)"><text alignment-baseline="central" dominant-baseline="central"
+              fill="#979797" style="font: normal 14pt Arial">26ec1e9 fix: a3 - Sergio Flores
+              &lt;saxo-guy@epic.com&gt;</text></g>
+          <g transform="translate(300, 0)">
+            <g>
+              <rect width="93.65625" height="31" rx="10" fill="white" stroke="#979797"></rect><text
+                alignment-baseline="central" dominant-baseline="central" fill="#979797" style="font: normal 14pt Arial"
+                x="10" y="15.5">feature/a</text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g transform="translate(100, 960)">
+        <g>
+          <defs>
+            <circle cx="14" cy="14" r="14" id="1258c6ccba02d5e7e294b1ebbe0ed0f3682996db" fill="#f1c109"></circle>
+            <clipPath id="clip-1258c6ccba02d5e7e294b1ebbe0ed0f3682996db">
+              <use href="#1258c6ccba02d5e7e294b1ebbe0ed0f3682996db"
+                xlink:href="#1258c6ccba02d5e7e294b1ebbe0ed0f3682996db"></use>
+            </clipPath>
+          </defs>
+          <use href="#1258c6ccba02d5e7e294b1ebbe0ed0f3682996db" xlink:href="#1258c6ccba02d5e7e294b1ebbe0ed0f3682996db"
+            clip-path="url(#clip-1258c6ccba02d5e7e294b1ebbe0ed0f3682996db)" stroke="" stroke-width="0"></use>
+        </g>
+        <g transform="translate(-100, 0)">
+          <g transform="translate(300, 14)"><text alignment-baseline="central" dominant-baseline="central"
+              fill="#f1c109" style="font: normal 14pt Arial">1258c6c Merge branch feature/a - Sergio Flores
+              &lt;saxo-guy@epic.com&gt;</text></g>
+        </g>
+      </g>
+      <g transform="translate(200, 880)">
+        <g>
+          <defs>
+            <circle cx="14" cy="14" r="14" id="a260a915651a1d1628535df48013627ec2784018" fill="#008fb5"></circle>
+            <clipPath id="clip-a260a915651a1d1628535df48013627ec2784018">
+              <use href="#a260a915651a1d1628535df48013627ec2784018"
+                xlink:href="#a260a915651a1d1628535df48013627ec2784018"></use>
+            </clipPath>
+          </defs>
+          <use href="#a260a915651a1d1628535df48013627ec2784018" xlink:href="#a260a915651a1d1628535df48013627ec2784018"
+            clip-path="url(#clip-a260a915651a1d1628535df48013627ec2784018)" stroke="" stroke-width="0"></use>
+        </g>
+        <g transform="translate(-200, 0)">
+          <g transform="translate(300, 14)"><text alignment-baseline="central" dominant-baseline="central"
+              fill="#008fb5" style="font: normal 14pt Arial">a260a91 feat: b1 - Sergio Flores
+              &lt;saxo-guy@epic.com&gt;</text></g>
+        </g>
+      </g>
+      <g transform="translate(200, 800)">
+        <g>
+          <defs>
+            <circle cx="14" cy="14" r="14" id="ed681e5ac321062ab756b3e5dd13806ca5bf892f" fill="#008fb5"></circle>
+            <clipPath id="clip-ed681e5ac321062ab756b3e5dd13806ca5bf892f">
+              <use href="#ed681e5ac321062ab756b3e5dd13806ca5bf892f"
+                xlink:href="#ed681e5ac321062ab756b3e5dd13806ca5bf892f"></use>
+            </clipPath>
+          </defs>
+          <use href="#ed681e5ac321062ab756b3e5dd13806ca5bf892f" xlink:href="#ed681e5ac321062ab756b3e5dd13806ca5bf892f"
+            clip-path="url(#clip-ed681e5ac321062ab756b3e5dd13806ca5bf892f)" stroke="" stroke-width="0"></use>
+        </g>
+        <g transform="translate(-200, 0)">
+          <g transform="translate(300, 14)"><text alignment-baseline="central" dominant-baseline="central"
+              fill="#008fb5" style="font: normal 14pt Arial">ed681e5 feat: b2 - Sergio Flores
+              &lt;saxo-guy@epic.com&gt;</text></g>
+        </g>
+      </g>
+      <g transform="translate(200, 720)">
+        <g>
+          <defs>
+            <circle cx="14" cy="14" r="14" id="e158d96acd42b94b6da272a084deca0b8ee64238" fill="#008fb5"></circle>
+            <clipPath id="clip-e158d96acd42b94b6da272a084deca0b8ee64238">
+              <use href="#e158d96acd42b94b6da272a084deca0b8ee64238"
+                xlink:href="#e158d96acd42b94b6da272a084deca0b8ee64238"></use>
+            </clipPath>
+          </defs>
+          <use href="#e158d96acd42b94b6da272a084deca0b8ee64238" xlink:href="#e158d96acd42b94b6da272a084deca0b8ee64238"
+            clip-path="url(#clip-e158d96acd42b94b6da272a084deca0b8ee64238)" stroke="" stroke-width="0"></use>
+        </g>
+        <g transform="translate(-200, 0)">
+          <g transform="translate(403.65625, 14)"><text alignment-baseline="central" dominant-baseline="central"
+              fill="#008fb5" style="font: normal 14pt Arial">e158d96 fix: b3 - Sergio Flores
+              &lt;saxo-guy@epic.com&gt;</text></g>
+          <g transform="translate(300, 0)">
+            <g>
+              <rect width="93.65625" height="31" rx="10" fill="white" stroke="#008fb5"></rect><text
+                alignment-baseline="central" dominant-baseline="central" fill="#008fb5" style="font: normal 14pt Arial"
+                x="10" y="15.5">feature/b</text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g transform="translate(100, 640)">
+        <g>
+          <defs>
+            <circle cx="14" cy="14" r="14" id="2c682e8000e8bf0451ee9ab4889bfc37e99382ca" fill="#f1c109"></circle>
+            <clipPath id="clip-2c682e8000e8bf0451ee9ab4889bfc37e99382ca">
+              <use href="#2c682e8000e8bf0451ee9ab4889bfc37e99382ca"
+                xlink:href="#2c682e8000e8bf0451ee9ab4889bfc37e99382ca"></use>
+            </clipPath>
+          </defs>
+          <use href="#2c682e8000e8bf0451ee9ab4889bfc37e99382ca" xlink:href="#2c682e8000e8bf0451ee9ab4889bfc37e99382ca"
+            clip-path="url(#clip-2c682e8000e8bf0451ee9ab4889bfc37e99382ca)" stroke="" stroke-width="0"></use>
+        </g>
+        <g transform="translate(-100, 0)">
+          <g transform="translate(300, 14)"><text alignment-baseline="central" dominant-baseline="central"
+              fill="#f1c109" style="font: normal 14pt Arial">2c682e8 Merge branch feature/b - Sergio Flores
+              &lt;saxo-guy@epic.com&gt;</text></g>
+        </g>
+      </g>
+      <g transform="translate(250, 560)">
+        <g>
+          <defs>
+            <circle cx="14" cy="14" r="14" id="6deb38cf732efb72b228a2559dbc9c164cbde377" fill="#f1c109"></circle>
+            <clipPath id="clip-6deb38cf732efb72b228a2559dbc9c164cbde377">
+              <use href="#6deb38cf732efb72b228a2559dbc9c164cbde377"
+                xlink:href="#6deb38cf732efb72b228a2559dbc9c164cbde377"></use>
+            </clipPath>
+          </defs>
+          <use href="#6deb38cf732efb72b228a2559dbc9c164cbde377" xlink:href="#6deb38cf732efb72b228a2559dbc9c164cbde377"
+            clip-path="url(#clip-6deb38cf732efb72b228a2559dbc9c164cbde377)" stroke="" stroke-width="0"></use>
+        </g>
+        <g transform="translate(-250, 0)">
+          <g transform="translate(389.125, 14)"><text alignment-baseline="central" dominant-baseline="central"
+              fill="#f1c109" style="font: normal 14pt Arial">6deb38c fix: xxx - Sergio Flores
+              &lt;saxo-guy@epic.com&gt;</text></g>
+          <g transform="translate(300, 0)">
+            <g>
+              <rect width="79.125" height="31" rx="10" fill="white" stroke="#f1c109"></rect><text
+                alignment-baseline="central" dominant-baseline="central" fill="#f1c109" style="font: normal 14pt Arial"
+                x="10" y="15.5">hotfix/c</text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g transform="translate(100, 480)">
+        <g>
+          <defs>
+            <circle cx="14" cy="14" r="14" id="c87ee76d65c5351f743c2745974e28d4538ada45" fill="#f1c109"></circle>
+            <clipPath id="clip-c87ee76d65c5351f743c2745974e28d4538ada45">
+              <use href="#c87ee76d65c5351f743c2745974e28d4538ada45"
+                xlink:href="#c87ee76d65c5351f743c2745974e28d4538ada45"></use>
+            </clipPath>
+          </defs>
+          <use href="#c87ee76d65c5351f743c2745974e28d4538ada45" xlink:href="#c87ee76d65c5351f743c2745974e28d4538ada45"
+            clip-path="url(#clip-c87ee76d65c5351f743c2745974e28d4538ada45)" stroke="" stroke-width="0"></use>
+        </g>
+        <g transform="translate(-100, 0)">
+          <g transform="translate(375.671875, 14)"><text alignment-baseline="central" dominant-baseline="central"
+              fill="#f1c109" style="font: normal 14pt Arial">c87ee76 Merge branch hotfix/c - Sergio Flores
+              &lt;saxo-guy@epic.com&gt;</text></g>
+          <g transform="translate(300, 0)">
+            <g>
+              <rect width="65.671875" height="31" rx="10" fill="white" stroke="#f1c109"></rect><text
+                alignment-baseline="central" dominant-baseline="central" fill="#f1c109" style="font: normal 14pt Arial"
+                x="10" y="15.5">alpha</text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g transform="translate(50, 400)">
+        <g>
+          <defs>
+            <circle cx="14" cy="14" r="14" id="a775ebd4f7634917506843a4532cb37a97fd4964" fill="#008fb5"></circle>
+            <clipPath id="clip-a775ebd4f7634917506843a4532cb37a97fd4964">
+              <use href="#a775ebd4f7634917506843a4532cb37a97fd4964"
+                xlink:href="#a775ebd4f7634917506843a4532cb37a97fd4964"></use>
+            </clipPath>
+          </defs>
+          <use href="#a775ebd4f7634917506843a4532cb37a97fd4964" xlink:href="#a775ebd4f7634917506843a4532cb37a97fd4964"
+            clip-path="url(#clip-a775ebd4f7634917506843a4532cb37a97fd4964)" stroke="" stroke-width="0"></use>
+        </g>
+        <g transform="translate(-50, 0)">
+          <g transform="translate(485.1875, 14)"><text alignment-baseline="central" dominant-baseline="central"
+              fill="#008fb5" style="font: normal 14pt Arial">a775ebd Merge branch hotfix/c - Sergio Flores
+              &lt;saxo-guy@epic.com&gt;</text></g>
+          <g transform="translate(300, 14)" data-offset="12">
+            <g>
+              <path
+                d="M 0,0 L 12,15.5 V 15.5 Q 12,15.5 22,15.5 H 165.1875 Q 175.1875,15.5 175.1875,5.5 V -5.5 Q 175.1875,-15.5 165.1875,-15.5 H 22 Q 12,-15.5 12,-15.5 V -15.5 z"
+                fill="#008fb5" stroke="#008fb5"></path><text alignment-baseline="central" dominant-baseline="central"
+                fill="white" style="font: normal 14pt Arial" x="22" y="0">V1.0.1-20220102</text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g transform="translate(0, 320)">
+        <g>
+          <defs>
+            <circle cx="14" cy="14" r="14" id="eb2a79e2c96d08162954bee67cc0c93ff3d526c4" fill="#979797"></circle>
+            <clipPath id="clip-eb2a79e2c96d08162954bee67cc0c93ff3d526c4">
+              <use href="#eb2a79e2c96d08162954bee67cc0c93ff3d526c4"
+                xlink:href="#eb2a79e2c96d08162954bee67cc0c93ff3d526c4"></use>
+            </clipPath>
+          </defs>
+          <use href="#eb2a79e2c96d08162954bee67cc0c93ff3d526c4" xlink:href="#eb2a79e2c96d08162954bee67cc0c93ff3d526c4"
+            clip-path="url(#clip-eb2a79e2c96d08162954bee67cc0c93ff3d526c4)" stroke="" stroke-width="0"></use>
+        </g>
+        <g transform="translate(0, 0)">
+          <g transform="translate(300, 14)"><text alignment-baseline="central" dominant-baseline="central"
+              fill="#979797" style="font: normal 14pt Arial">eb2a79e Merge branch develop - Sergio Flores
+              &lt;saxo-guy@epic.com&gt;</text></g>
+        </g>
+      </g>
+      <g transform="translate(50, 240)">
+        <g>
+          <defs>
+            <circle cx="14" cy="14" r="14" id="6795c67b273cf180e361af75bfff1e53dee6e7da" fill="#008fb5"></circle>
+            <clipPath id="clip-6795c67b273cf180e361af75bfff1e53dee6e7da">
+              <use href="#6795c67b273cf180e361af75bfff1e53dee6e7da"
+                xlink:href="#6795c67b273cf180e361af75bfff1e53dee6e7da"></use>
+            </clipPath>
+          </defs>
+          <use href="#6795c67b273cf180e361af75bfff1e53dee6e7da" xlink:href="#6795c67b273cf180e361af75bfff1e53dee6e7da"
+            clip-path="url(#clip-6795c67b273cf180e361af75bfff1e53dee6e7da)" stroke="" stroke-width="0"></use>
+        </g>
+        <g transform="translate(-50, 0)">
+          <g transform="translate(485.1875, 14)"><text alignment-baseline="central" dominant-baseline="central"
+              fill="#008fb5" style="font: normal 14pt Arial">6795c67 Merge branch feature/a - Sergio Flores
+              &lt;saxo-guy@epic.com&gt;</text></g>
+          <g transform="translate(300, 14)" data-offset="12">
+            <g>
+              <path
+                d="M 0,0 L 12,15.5 V 15.5 Q 12,15.5 22,15.5 H 165.1875 Q 175.1875,15.5 175.1875,5.5 V -5.5 Q 175.1875,-15.5 165.1875,-15.5 H 22 Q 12,-15.5 12,-15.5 V -15.5 z"
+                fill="#008fb5" stroke="#008fb5"></path><text alignment-baseline="central" dominant-baseline="central"
+                fill="white" style="font: normal 14pt Arial" x="22" y="0">V1.1.0-20220103</text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g transform="translate(0, 160)">
+        <g>
+          <defs>
+            <circle cx="14" cy="14" r="14" id="6a0656644f9c7edf0fe6096d3db4a452d1eb44c3" fill="#979797"></circle>
+            <clipPath id="clip-6a0656644f9c7edf0fe6096d3db4a452d1eb44c3">
+              <use href="#6a0656644f9c7edf0fe6096d3db4a452d1eb44c3"
+                xlink:href="#6a0656644f9c7edf0fe6096d3db4a452d1eb44c3"></use>
+            </clipPath>
+          </defs>
+          <use href="#6a0656644f9c7edf0fe6096d3db4a452d1eb44c3" xlink:href="#6a0656644f9c7edf0fe6096d3db4a452d1eb44c3"
+            clip-path="url(#clip-6a0656644f9c7edf0fe6096d3db4a452d1eb44c3)" stroke="" stroke-width="0"></use>
+        </g>
+        <g transform="translate(0, 0)">
+          <g transform="translate(300, 14)"><text alignment-baseline="central" dominant-baseline="central"
+              fill="#979797" style="font: normal 14pt Arial">6a06566 Merge branch develop - Sergio Flores
+              &lt;saxo-guy@epic.com&gt;</text></g>
+        </g>
+      </g>
+      <g transform="translate(50, 80)">
+        <g>
+          <defs>
+            <circle cx="14" cy="14" r="14" id="08b950e39b2f57868437f85a2dbee6e50f3aefd5" fill="#008fb5"></circle>
+            <clipPath id="clip-08b950e39b2f57868437f85a2dbee6e50f3aefd5">
+              <use href="#08b950e39b2f57868437f85a2dbee6e50f3aefd5"
+                xlink:href="#08b950e39b2f57868437f85a2dbee6e50f3aefd5"></use>
+            </clipPath>
+          </defs>
+          <use href="#08b950e39b2f57868437f85a2dbee6e50f3aefd5" xlink:href="#08b950e39b2f57868437f85a2dbee6e50f3aefd5"
+            clip-path="url(#clip-08b950e39b2f57868437f85a2dbee6e50f3aefd5)" stroke="" stroke-width="0"></use>
+        </g>
+        <g transform="translate(-50, 0)">
+          <g transform="translate(580.5625, 14)"><text alignment-baseline="central" dominant-baseline="central"
+              fill="#008fb5" style="font: normal 14pt Arial">08b950e Merge branch feature/b - Sergio Flores
+              &lt;saxo-guy@epic.com&gt;</text></g>
+          <g transform="translate(300, 0)">
+            <g>
+              <rect width="85.375" height="31" rx="10" fill="white" stroke="#008fb5"></rect><text
+                alignment-baseline="central" dominant-baseline="central" fill="#008fb5" style="font: normal 14pt Arial"
+                x="10" y="15.5">develop</text>
+            </g>
+          </g>
+          <g transform="translate(395.375, 14)" data-offset="12">
+            <g>
+              <path
+                d="M 0,0 L 12,15.5 V 15.5 Q 12,15.5 22,15.5 H 165.1875 Q 175.1875,15.5 175.1875,5.5 V -5.5 Q 175.1875,-15.5 165.1875,-15.5 H 22 Q 12,-15.5 12,-15.5 V -15.5 z"
+                fill="#008fb5" stroke="#008fb5"></path><text alignment-baseline="central" dominant-baseline="central"
+                fill="white" style="font: normal 14pt Arial" x="22" y="0">V1.2.0-20220104</text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g transform="translate(0, 0)">
+        <g>
+          <defs>
+            <circle cx="14" cy="14" r="14" id="ce0a5ee48cba131dae196aa8e5721e70c6015b5d" fill="#979797"></circle>
+            <clipPath id="clip-ce0a5ee48cba131dae196aa8e5721e70c6015b5d">
+              <use href="#ce0a5ee48cba131dae196aa8e5721e70c6015b5d"
+                xlink:href="#ce0a5ee48cba131dae196aa8e5721e70c6015b5d"></use>
+            </clipPath>
+          </defs>
+          <use href="#ce0a5ee48cba131dae196aa8e5721e70c6015b5d" xlink:href="#ce0a5ee48cba131dae196aa8e5721e70c6015b5d"
+            clip-path="url(#clip-ce0a5ee48cba131dae196aa8e5721e70c6015b5d)" stroke="" stroke-width="0"></use>
+        </g>
+        <g transform="translate(0, 0)">
+          <g transform="translate(387.296875, 14)"><text alignment-baseline="central" dominant-baseline="central"
+              fill="#979797" style="font: normal 14pt Arial">ce0a5ee Merge branch develop - Sergio Flores
+              &lt;saxo-guy@epic.com&gt;</text></g>
+          <g transform="translate(300, 0)">
+            <g>
+              <rect width="77.296875" height="31" rx="10" fill="white" stroke="#979797"></rect><text
+                alignment-baseline="central" dominant-baseline="central" fill="#979797" style="font: normal 14pt Arial"
+                x="10" y="15.5">master</text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
