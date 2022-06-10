@@ -20,7 +20,7 @@
     "prettier-plugin-tailwindcss": "^0.1.11"
   },
   "devDependencies": {
-    "@zhbhun/eslint-config-base": "^1.0.0",
+    "@zhbhun/eslint-config-base": "1.0.0",
     "eslint": "^8.0.0",
     "lint-staged": "^13.0.1",
     "prettier": "^2.0.0"

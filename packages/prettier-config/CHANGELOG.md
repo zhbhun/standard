@@ -1,3 +1,18 @@
+# @zhbhun/prettier-config 1.0.0 (2022-06-10)
+
+
+### Features
+
+* 初始化 ([4aa8e21](https://github.com/zhbhun/standard/commit/4aa8e216b6911a0e3b625c40071d6468e0e60172))
+
+
+
+
+
+### Dependencies
+
+* **@zhbhun/eslint-config-base:** upgraded to 1.0.0
+
 ## @zhbhun/prettier-config [1.0.1](https://github.com/openeagle/standard/compare/@zhbhun/prettier-config@1.0.0...@zhbhun/prettier-config@1.0.1) (2022-04-16)
 
 
