@@ -28,7 +28,7 @@
     "eslint-import-resolver-alias": "^1.0.1"
   },
   "devDependencies": {
-    "@zhbhun/prettier-config": "^1.0.0",
+    "@zhbhun/prettier-config": "1.0.0",
     "eslint": "^8.0.0",
     "lint-staged": "^13.0.1",
     "prettier": "^2.0.0",
