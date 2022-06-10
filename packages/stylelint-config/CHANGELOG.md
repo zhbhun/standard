@@ -1,3 +1,19 @@
+# @zhbhun/stylelint-config 1.0.0 (2022-06-10)
+
+
+### Features
+
+* 初始化 ([4aa8e21](https://github.com/zhbhun/standard/commit/4aa8e216b6911a0e3b625c40071d6468e0e60172))
+
+
+
+
+
+### Dependencies
+
+* **@zhbhun/eslint-config-base:** upgraded to 1.0.0
+* **@zhbhun/prettier-config:** upgraded to 1.0.0
+
 ## @zhbhun/stylelint-config [1.0.2](https://github.com/openeagle/standard/compare/@zhbhun/stylelint-config@1.0.1...@zhbhun/stylelint-config@1.0.2) (2022-04-16)
 
 
